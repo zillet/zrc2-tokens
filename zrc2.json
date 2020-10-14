@@ -1,9 +1,8 @@
 [
     {
-      "name": "XSGD",
-      "symbol": "XSGD",
+      "name": “SHARK”,
+      "symbol": “SHRK”,
       "decimals": 6,
-      "address": "zil1zu72vac254htqpg3mtywdcfm84l3dfd9qzww8t",
-      "testnetAddress": "zil10a9z324aunx2qj64984vke93gjdnzlnl5exygv"
+      "address": "zil17tsmlqgnzlfxsq4evm6n26txm2xlp5hele0kew",
     }
 ]
