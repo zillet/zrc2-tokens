@@ -8,13 +8,13 @@ Directory of token details and image for ZRC2 contracts
 
 ## Steps
 1) Press on `Fork` in the top right corner.
-2) Add token details in `zrc2.json` and upload an image in `images/` folder on your own fork and commit changes.
+2) Add token details inside `tokens` folder by creating a json file and upload an image in `icons/` folder on your own fork and commit changes.
 3) Press on `New Pull Request` on your own fork page and submit it!
 
 
 ## ZRC2 format 
 
-`zrc2.json` file has list of token, format should be like this
+`exmp.json` (Token symbol .json) file format should be like this
 
 ```js
 {
