@@ -10,9 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - name: Installing dependencies
+      run: npm install
+      
+    - name: Building the Application
+      run: npm run build
     - uses: jakejarvis/s3-sync-action@master
       with:
-        args: --acl public-read --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*' --exclude 'README.md'
+        args: --acl public-read --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*' --exclude 'README.md' --exclude '.gitignore'
       env:
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}

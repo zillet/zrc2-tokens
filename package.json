@@ -1,0 +1,13 @@
+{
+  "name": "zrc2-tokens",
+  "version": "0.1.0",
+  "description": "List of ZRC2 tokens",
+  "author": "man15h <manish9461@gmail.com>",
+  "private": true,
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "build": "node compile.js"
+  }
+}
