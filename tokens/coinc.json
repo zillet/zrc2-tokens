@@ -1,7 +1,7 @@
 {
-    "name": "CoinC",  // Name  of the token
-    "symbol": "CC", // Symbol of the token
-    "decimals": 5, // Supported decimals
-    "address": "", // Mainnet contract address 
-    "testnetAddress": "zil1vx29kxc5xjwmhcxyr2pygue7v80lnpz72q6eln" // Testnet contract address
+    "name": "CoinC",  
+    "symbol": "CC", 
+    "decimals": 5, 
+    "address": "",  
+    "testnetAddress": "zil1vx29kxc5xjwmhcxyr2pygue7v80lnpz72q6eln"
 }
