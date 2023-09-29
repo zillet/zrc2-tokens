@@ -1,0 +1,7 @@
+{
+    "name": "SXGD",  // Name  of the token
+    "symbol": "SXGD", // Symbol of the token
+    "decimals": 6, // Supported decimals
+    "address": "", // Mainnet contract address 
+    "testnetAddress": "zil1nx3hf8x8yax6cw5vk0f2ru0nzrpq544038zuap" // Testnet contract address
+}
